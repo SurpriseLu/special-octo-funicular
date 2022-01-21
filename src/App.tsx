@@ -1,10 +1,12 @@
 import React from 'react';
 import styles from './App.module.css';
+import { Header, Footer } from './components'
 
 function App() {
   return (
     <div className={styles.App}>
-      lujingxi learn react
+      <Header />
+      <Footer />
     </div>
   );
 }
